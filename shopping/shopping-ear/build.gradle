@@ -1,4 +1,3 @@
-
 apply plugin: 'ear'
 
 dependencies {
@@ -6,7 +5,7 @@ dependencies {
 	deploy project(path: ':shopping-ejb')
 	earlib project(':shopping-core')
 	earlib project(':shopping-api')
-	earlib project(':shopping-client')
+	earlib project(':shopping-ejb-lient')
 }
 
 ear {
