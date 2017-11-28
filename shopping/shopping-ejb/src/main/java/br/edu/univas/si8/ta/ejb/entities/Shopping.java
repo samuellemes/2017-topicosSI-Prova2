@@ -1,5 +1,6 @@
 package br.edu.univas.si8.ta.ejb.entities;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -15,6 +16,8 @@ public class Shopping {
 	private Integer id;
 	
 	private String description;
+	
+@Column(name="order_time")
 	private String orderTime;
 	
 	public void setId(Integer id) {
